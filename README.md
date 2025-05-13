@@ -1,10 +1,6 @@
 # propagacion-excepciones
 
-En el siguiente diagrama se muestra gráficamente cómo se propaga la excepción que se genera en el código, a través de la pila de llamadas durante la ejecución del código:
-
-
-![Ejemplo](https://dis.um.es/~bmoros/Tutorial/parte9/cap9-2.gif)
-
+En el siguiente diagrama se muestra gráficamente cómo se propaga la excepción que se genera en el código, a través de la pila de llamadas durante la ejecución
 Cuando se crea una nueva excepción, derivando de una clase Exception ya existente, se puede cambiar el mensaje que lleva asociado. La cadena de texto puede ser recuperada a través de un método. Normalmente, el texto del mensaje proporcionará información para resolver el problema o sugerirá una acción alternativa. Por ejemplo:
 
         class SinGasolina extends Exception {
